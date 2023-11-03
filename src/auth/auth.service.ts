@@ -1,7 +1,7 @@
 import { BadRequestException, Injectable, InternalServerErrorException, UnauthorizedException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 
-import { CreateUserDto, UpdateAuthDto, LoginDto, RegisterUserDto } from './dto';
+import { CreateUserDto, LoginDto, RegisterUserDto } from './dto';
 import { User } from './entities/user.entity';
 import { Model } from 'mongoose';
 
